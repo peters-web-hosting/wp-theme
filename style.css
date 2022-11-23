@@ -1,0 +1,56 @@
+/*
+Theme Name: peters web
+Theme URI: http://petersweb.me.uk/
+Author: whmcsdes
+Author URI: https://whmcsdes.com
+Template: phox
+Description: PHOX Child - Hosting Wordpress Theme
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: domains, host, hosting, hosting templates, landing page, layout, layout switcher, modern, one page, template, web hosting templates, whmcs, whmcs templates, whmcsdes
+Text Domain: phox
+*/
+/*Footer text*/
+.widget-footer h1,h2{
+font-family: "Montserrat", sans-serif !important;
+	font-weight: 600;
+    font-size: 14px;
+}
+.widget-footer a {
+	color: #717380;
+}
+.widget-footer a:hover {
+	color: #F07800;
+}
+/*Better docs theming*/
+.docs-single-title .betterdocs-entry-title {
+	padding: 0 20px 10px;
+}
+.wdes-menu-navbar ul.default-drop>li>a{
+	font-family: "Montserrat", sans-serif !important;
+	font-weight: 600;
+    font-size: 14px;
+}
+.single-kb .docs-cat-title-inner .docs-cat-heading{
+	font-family: "Poppins", sans-serif:
+  font-size: 33px;
+  font-weight: 700;
+}
+.betterdocs-categories-wrap.single-kb li a{
+		font-family: "Roboto", sans-serif:
+}
+
+/*Whmcs tweaks*/
+div.whcom_clearfix.base_price{
+	display: none !important;
+	
+}
+div.whcom_clearfix.final_price{
+	display: none !important;
+	
+}
+.whmpress button, .whmpress a.whmpress-btn, .whmpress a.buy-button, .whmpress a.www-button, .whmpress a.whois-button, .whmpress a.whmpress_order_button, .whmpress input[type="submit"] {
+	background-color: 
+#F07800;
+}
